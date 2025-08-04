@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <h1>📝 To-Do List</h1>
+      <form id="task-form" class="task-form">
+        <input type="text" id="task-input" placeholder="Enter a new task..." required />
+        <select id="task-category">
+          <option value="All">All</option>
+          <option value="Work">Work</option>
+          <option value="Study">Study</option>
+          <option value="Personal">Personal</option>
+        </select>
+        <select id="task-priority">
+         <option value="Low">Low</option>
+         <option value="Medium">Medium</option>
+         <option value="High">High</option>
+        </select>
+        <input type="date" id="due-date-input">
+        <button type="submit" id="add-task-btn">Add Task</button>
+      </form>
+    </div>
+
+    <div class="right-panel">
+      <div class="search-and-clear">
+        <input type="text" id="search-input" placeholder="Search tasks..." />
+        <button id="clear-completed-btn">🧹 Clear Completed</button>
+      </div>
+
+      <div id="category-filters" class="filters">
+        <button data-category="All">All</button>
+        <button data-category="Work">Work</button>
+        <button data-category="Study">Study</button>
+        <button data-category="Personal">Personal</button>
+      </div>
+      <div id="notification" class="notification"></div>
+
+      <ul id="taskList">
+        <!-- Tasks will appear here -->
+      </ul>
+    </div>
+  </div>
+
+  <button id="darkModeToggle">🌗 Toggle Dark Mode</button>
+
+  <audio id="successSound" src="success sound.mpeg" preload="auto"></audio>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+  <audio id="successsound" src="success sound.mpeg" preload="auto"></audio>
+</body>
+</html>
