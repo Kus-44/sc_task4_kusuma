@@ -31,8 +31,9 @@ This is a feature-rich To-Do List web application designed to help users manage 
 
 > _Add a screenshot image here if you have one_  
 > Example:  
-> ![Preview](./assets/screenshot.png)
+> ![Preview](<img width="1600" height="720" alt="image" src="https://github.com/user-attachments/assets/9a8c9ece-fd07-4e51-8b27-de915ce3941c" />
+)
 
 ## 🔗 Live Demo
 
-[Click here to try the To-Do App]()  
+[Click here to try the To-Do App](https://kus-44.github.io/sc_task4_kusuma/)  
