@@ -27,12 +27,6 @@ This is a feature-rich To-Do List web application designed to help users manage 
 2. Open `index.html` in your browser  
 3. Start adding tasks and enjoy organizing!
 
-## 📸 Preview
-
-> _Add a screenshot image here if you have one_  
-> Example:  
-> ![Preview](<img width="1600" height="720" alt="image" src="https://github.com/user-attachments/assets/9a8c9ece-fd07-4e51-8b27-de915ce3941c" />
-)
 
 ## 🔗 Live Demo
 
